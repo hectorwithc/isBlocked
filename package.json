@@ -1,0 +1,45 @@
+{
+  "name": "isblocked",
+  "version": "1.0.0",
+  "description": "Simple open-source web and cli tool to check if a domain is on a block list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorwithc/isBlocked.git"
+  },
+  "keywords": [
+    "CLI",
+    "Blocked",
+    "Hosts",
+    "Blocked",
+    "Host",
+    "Blocked",
+    "isBlocked",
+    "hectorwithc",
+    "Tool",
+    "Easy",
+    "to",
+    "use",
+    "Helpful",
+    "Useful"
+  ],
+  "author": "hectorwithc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hectorwithc/isBlocked/issues"
+  },
+  "homepage": "https://github.com/hectorwithc/isBlocked#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^8.2.4",
+    "nanospinner": "^1.1.0"
+  },
+  "type": "module"
+}
