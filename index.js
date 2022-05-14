@@ -24,15 +24,18 @@ async function welcome() {
 //Get blocked hosts
 async function getBlockedHosts() {
     const response = await axios.get('https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts');
-    console.log(response);
+    return response;
 }
 
 // Clean data
 async function cleanData() {
+    const data = await getBlockedHosts()
+    const newData = data.data
 
+    console.log(newData)
 }
 
 await welcome()
-await getBlockedHosts()
+await cleanData()
 
 process.exit(0);
